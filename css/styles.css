@@ -1,0 +1,564 @@
+* {
+  /* border: 1px blue dashed; */
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Nunito';
+  font-size: 100%;
+  padding-top: 60px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.box {
+  border: 2px #CE5B78 solid;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  color: #FFFFFF;
+}
+
+.logo-container{
+  border: 0px;
+}
+
+.header-container {
+  margin-bottom: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sticky-header {
+  /* styles needed to make the header sticky */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #452222;
+}
+
+.logo-container h4 {
+  background-color: #452222;
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+}
+
+
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+nav{
+  display: flex
+
+}
+
+.header{
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-between; */
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #452222;
+  padding-right: 10px;
+  box-shadow: 0 50vh 0 50vh #452222;
+}
+
+.footer img{
+  background-color: #452222;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+.content-container{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+.resume h1{
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-size: 50;
+  display: flex;
+  justify-content: center;
+}
+
+.tane{
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.sprout{
+  padding-bottom: 5px;
+}
+.whiteandwarren{
+  padding-bottom: 29px;
+}
+.blurb-container{
+  display: flex;
+  justify-content: center;
+  background-color: #452222;
+  padding: 10px;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  height: 250px;
+  color: white;
+
+}
+
+.becca, .orva, .tane-organics, .sprout, .whiteandwarren, .iprospect{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /*margin-left: auto;
+  margin-right: auto;*/
+}
+
+
+.date-range p{
+  padding-bottom: 10px;
+  color: #452222;
+  background: white;
+  margin: 0px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+*/
+
+
+.job-info{
+  display: flex;
+}
+
+.job-info p{
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* top navigation link formatting */
+
+/* unvisited link */
+a.top-nav:link {
+  text-decoration: none;
+  text-decoration: none;
+  color: white;
+}
+
+/* visited link */
+a{
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: #CE5B78;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+.header{
+  background-color: #452222;
+}
+
+.top-nav{
+  background-color: #452222;
+}
+
+a, nav, p, li{
+  background-color: #452222;
+}
+
+
+p {
+  color: white;
+}
+
+.top-logo{
+  font-size: 20;
+}
+
+a{
+  margin-left: 15px;
+}
+
+/* ABOUT */
+.headshot{
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+h1, h2, h3{
+  color: #452222;
+  font-size: 20px;
+}
+
+h4{
+  background-color: #452222;
+}
+
+
+.education-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 150px;
+  }
+
+
+
+
+
+.logo-zicklin img{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.logo-zicklin{
+  border-style: solid;
+  border-color: navy;
+  border-width: 1px;
+}
+
+*/
+
+
+
+.about-me{
+  padding: 100px;
+  margin: 0px;
+}
+
+.about-me p{
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.headshot{
+  width: 100%;
+}
+
+.line{
+  width: 3px;
+  background-color: #452222;
+}
+
+.main-content-index{
+display: flex;
+align-items: center;
+
+}
+
+
+
+#mobile-menu-button {
+  /* background-color: pink; */
+  display: none;
+}
+
+/*FOR MOBILE? TABLE*/
+
+/* Extra Large devices (large desktops, 1200px and down) */
+@media only screen and (max-width: 1200px) {
+  .main-content-index {
+    display: flex;
+    flex-direction: column;
+  }
+
+   .becca, .orva, .tane-organics, .sprout, .whiteandwarren, .iprospect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+  }
+
+  .job-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .blurb-container{
+    padding: 5px;
+    margin: 0px;
+  }
+
+  .resume{
+    margin: 0px;
+    padding: 0px;
+  }
+}
+
+/*
+  Large devices (desktops, 992px and down)
+*/
+@media only screen and (max-width: 992px) {
+  /* styles go here */
+  .main-content-index {
+    display: flex;
+    flex-direction: column;
+  }
+
+   .becca, .orva, .tane-organics, .sprout, .whiteandwarren, .iprospect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+  }
+
+  .job-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .blurb-container{
+    padding: 5px;
+    margin: 0px;
+  }
+
+  .becca-image, .iprospect-image, .orva-image, .tane-image, .sprout-image, .whiteandwarren-image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+
+
+  .content-container{
+    padding: 10px;
+  }
+
+}
+
+/*
+  Medium devices (tablets, 768px and down)
+*/
+@media only screen and (max-width: 768px) {
+
+  .header-container {
+    padding: 5px 8px;
+    flex-wrap: wrap;
+  }
+
+  .nav-container {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .nav-container.showing {
+    transition: all 500ms ease-in-out;
+    max-height: 500px;
+  }
+
+  .nav-container.hiding {
+    transition: all 500ms ease-in-out;
+    max-height: 0px;
+  }
+
+  .nav-item {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 5px;
+  }
+
+  #mobile-menu-button {
+    display: block;
+    margin-right: 10px;
+  }
+
+  .main-content-index {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-me {
+    padding-top: 4px;
+    border-radius: 5px;
+  }
+
+  .content-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .becca, .orva, .tane-organics, .sprout, .whiteandwarren, .iprospect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+  }
+
+  .job-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .becca-image, .iprospect-image, .orva-image, .tane-image, .sprout-image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  .whiteandwarren-image{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+  }
+
+  .content-container{
+    padding: 10px;
+  }
+
+  .education-content{
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 576px) {
+  .headshot{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    height: 100%;
+  }
+
+  .becca, .orva, .tane-organics, .sprout, .whiteandwarren, .iprospect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+  }
+
+  .date-range p{
+    padding: 1px;
+  }
+
+  .content-container{
+    padding: 10px;
+  }
+
+  .becca-image, .iprospect-image, .orva-image, .tane-image, .sprout-image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  .whiteandwarren-image{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+  }
+
+  .education-content{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .degree-container{
+    text-align: center;
+  }
+
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #452222;
+    padding-top:5px;
+}
