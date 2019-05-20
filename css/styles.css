@@ -16,11 +16,9 @@ body{
 }
 
 .box {
-  border: 2px #CE5B78 solid;
   text-align: center;
   padding: 10px;
   border-radius: 5px;
-  color: #FFFFFF;
 }
 
 .logo-container{
@@ -221,7 +219,7 @@ a:hover {
 
 /* selected link */
 a:active {
-  color: blue;
+  color: white;
   text-decoration: none;
 }
 
@@ -561,4 +559,15 @@ align-items: center;
     justify-content: center;
     background-color: #452222;
     padding-top:5px;
+}
+
+.box {
+  border: 2px #CE5B78 solid;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.logo-container {
+  border: 0px;
 }
