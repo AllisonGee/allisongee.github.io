@@ -96,14 +96,6 @@ nav{
 }
 
 
-
-
-
-
-
-
-
-
 .content-container{
   padding-left: 15px;
   padding-right: 15px;
@@ -114,6 +106,14 @@ nav{
   padding-top: 40px;
   padding-bottom: 10px;
   font-size: 50;
+  display: flex;
+  justify-content: center;
+}
+
+.education h1{
+  padding-top: 40px;
+  padding-bottom: 10px;
+  font-size: 50px;
   display: flex;
   justify-content: center;
 }
@@ -136,7 +136,7 @@ nav{
   padding: 10px;
   border-radius: 5px;
   flex-wrap: wrap;
-  height: 250px;
+  height: auto;
   color: white;
 
 }
@@ -176,7 +176,9 @@ nav{
 
 
 
-
+.degree-container{
+  padding-left: 200px;
+}
 
 
 
@@ -253,6 +255,7 @@ a{
   margin-top: 100px;
   margin-left: 20px;
   margin-bottom: 50px;
+  padding-right: 30px;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -400,6 +403,7 @@ align-items: center;
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
+    padding-top: 0px;
   }
 
 
@@ -501,6 +505,17 @@ align-items: center;
     align-items: center;
   }
 
+  .box {
+    border: 2px #CE5B78 solid;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .logo-container {
+    border: 0px;
+  }
+
 
 
 }
@@ -551,6 +566,7 @@ align-items: center;
 
   .degree-container{
     text-align: center;
+    padding: 0px;
   }
 
   .footer{
